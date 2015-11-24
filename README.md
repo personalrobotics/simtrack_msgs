@@ -1,2 +1,2 @@
-# chisel_msgs
-Breaking out chisel ROS messages into their own package to be used remotely
+# simtrack_msgs
+Breaking out simtrack messages into their own package to be used remotely
