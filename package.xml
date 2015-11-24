@@ -1,0 +1,22 @@
+<package>
+  <name>simtrack_msgs</name>
+  <version> 0.0.0 </version>
+  <description>
+    simtrack_msgs are the ROS messages required for simtrack
+  </description>
+  <license>BSD</license>
+  <url type="website">http://www.karlpauwels.com/simtrack</url>
+  <author email="karlpauwels@users.noreply.github.com">Karl Pauwels</author>
+  <maintainer email="karlpauwels@users.noreply.github.com">Karl Pauwels</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+</package>
+
+
