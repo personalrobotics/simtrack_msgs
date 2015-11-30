@@ -1,5 +1,11 @@
+# If this list contains any names, the active objects in simtrack
+# will be switched to these. Otherwise, the active objects remain
+# the same.
 string[] model_names
+# The detector will run for this long before returning
 float32 timeout_seconds
 ---
+# The objects that were detected
 string[] detected_models
+# The detected object poses
 geometry_msgs/PoseStamped[] detected_poses
